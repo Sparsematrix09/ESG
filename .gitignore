@@ -1,0 +1,159 @@
+# ========================================
+# Environment & Secrets
+# ========================================
+.env
+.env.*
+!.env.example
+!.env.template
+
+# ========================================
+# Python
+# ========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+
+# ========================================
+# Frontend (Node.js)
+# ========================================
+**/node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+frontend/coverage/
+frontend/.env
+frontend/.env.local
+frontend/.vercel
+frontend/bun.lockb
+
+# Lock files (keep package.json, ignore locks)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========================================
+# Testing & Coverage
+# ========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+nosetests.xml
+coverage/
+
+# ========================================
+# ML & Data
+# ========================================
+# Model artifacts (keep metadata)
+models/*.joblib
+models/*.pkl
+!models/*.meta.json
+
+# Data files
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/processed/*.csv
+!data/processed/esg_data_cleaned.csv
+*.parquet
+*.feather
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# ========================================
+# Jupyter Notebooks
+# ========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ========================================
+# Logs & Databases
+# ========================================
+*.log
+logs/
+*.sqlite3
+*.db
+*.sql.bak
+
+# ========================================
+# IDE / Editor
+# ========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# Cache & Temp
+# ========================================
+.cache/
+*.tmp
+*.bak
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+*.tar.gz
+*.zip
+
+# ========================================
+# Reports & Generated Files
+# ========================================
+reports/predictions/
+reports/figures/
+reports/tables/
+
+# ========================================
+# Gemini AI Agent
+# ========================================
+.gemini/
+.agent/
