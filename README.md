@@ -1,17 +1,5 @@
 # 🌱 ESG Sustainability Analytics Platform  
 **AI-Powered ESG Risk Assessment & Corporate Sustainability Intelligence**  
-*Enterprise-Grade Full-Stack Platform with ML-Driven Insights*
-
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![React](https://img.shields.io/badge/React-18-61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![AI](https://img.shields.io/badge/AI-Groq%20Llama%203.3-orange)
-![Performance](https://img.shields.io/badge/Performance-Production%20Ready-success)
-
----
 
 ## 📜 Mission Statement
 
@@ -696,44 +684,6 @@ uvicorn backend.main:app --workers 4 --port 8000
 
 ---
 
-## 📜 License & Legal
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
-### Attribution Requirements
-- Retain copyright notice and license in derivatives
-- Credit original author: Surya Hariharan
-- Link to original repository: https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis
-
-### Third-party Licenses
-- **React**: MIT License
-- **FastAPI**: MIT License  
-- **PostgreSQL**: PostgreSQL License
-- **Groq**: Subject to Groq Terms of Service
-
----
-
-## 👥 Team & Contributors
-
-### Core Team
-- **🚀 Surya Hariharan** - Lead Developer & Architect
-  - GitHub: [@Surya-Hariharan](https://github.com/Surya-Hariharan)
-  - LinkedIn: [Surya Hariharan](https://linkedin.com/in/surya-hariharan)
-  - Email: surya.hariharan@email.com
-
-### Acknowledgments
-- **Groq Team** - For providing fast LLM inference capabilities
-- **PostgreSQL Community** - For the robust database foundation
-- **React Team** - For the excellent frontend framework
-- **FastAPI Contributors** - For the high-performance backend framework
-- **ESG Data Providers** - For comprehensive sustainability metrics
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how to get started:
-
 ### Development Setup
 ```bash
 # 1. Fork the repository on GitHub
@@ -762,44 +712,6 @@ git push origin feature/amazing-feature
 # 7. Open a Pull Request
 ```
 
-### Contribution Guidelines
-- **🐛 Bug Reports**: Use GitHub Issues with detailed reproduction steps
-- **💡 Feature Requests**: Describe the feature and use case clearly
-- **📚 Documentation**: Help improve READMEs and API documentation
-- **🧪 Testing**: Add tests for new functionality
-- **🎨 UI/UX**: Enhance user interface and experience
-
-### Code Standards
-- **Python**: Follow PEP 8, use type hints, add docstrings
-- **TypeScript**: Use strict mode, follow React best practices
-- **Git**: Use conventional commits (`feat:`, `fix:`, `docs:`)
-- **Testing**: Maintain >80% code coverage
-
----
-
-## 📞 Support & Community
-
-### Documentation & Resources
-- **📖 User Guide**: [Wiki Documentation](https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis/wiki)
-- **🛠️ API Reference**: http://127.0.0.1:8000/docs (when running locally)
-- **🐛 Issue Tracker**: [GitHub Issues](https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis/discussions)
-
-### Getting Help
-1. **📖 Check Documentation**: Start with this README and the wiki
-2. **🔍 Search Issues**: Look for existing solutions in GitHub Issues
-3. **💬 Ask Questions**: Use GitHub Discussions for general questions
-4. **🐛 Report Bugs**: Create detailed bug reports with reproduction steps
-5. **💡 Request Features**: Explain your use case and expected behavior
-
-### Community Guidelines
-- **🤝 Be Respectful**: Treat all community members with respect
-- **📝 Be Descriptive**: Provide clear, detailed information in issues
-- **🧪 Test First**: Try reproducing issues before reporting
-- **📚 Share Knowledge**: Help others learn and succeed
-
----
-
 ## 📊 Project Statistics
 
 ### Codebase Metrics
@@ -822,9 +734,6 @@ git push origin feature/amazing-feature
 
 ---
 
-**🌱 Built for Sustainable Finance | 🚀 Production-Ready | 🤖 AI-Powered | 📊 Data-Driven**
-
-*Empowering sustainable investment decisions through advanced ESG analytics and AI-driven insights* 🌍
 
 ### 4️⃣ Frontend Setup (React)
 
@@ -998,63 +907,3 @@ const fetchESGData = async () => {
 
 ---
 
-## 🤝 Contributing
-
-### Development Workflow
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
-3. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-4. **Make** your changes with tests
-5. **Test** thoroughly (`pytest` for backend, `npm test` for frontend)
-6. **Commit** with descriptive messages
-7. **Push** to your fork and create a **Pull Request**
-
-### Code Quality Standards
-- **Python**: Follow PEP 8, use type hints, include docstrings
-- **TypeScript**: Use strict mode, follow React best practices  
-- **Testing**: Maintain >80% code coverage
-- **Documentation**: Update README and inline comments
-
-### Issue Reporting
-When reporting issues, please include:
-- **Environment details** (OS, Python/Node versions)
-- **Steps to reproduce** the issue
-- **Expected vs actual behavior**
-- **Error messages** and logs
-- **Screenshots** for UI issues
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 Contact & Support
-
-### Main Developer
-**Surya Hariharan**  
-- 🐙 GitHub: [@Surya-Hariharan](https://github.com/Surya-Hariharan)
-- 💼 LinkedIn: [Connect with Surya](https://linkedin.com/in/surya-hariharan)
-- 📧 Email: surya.hariharan@email.com
-
-### Project Links
-- **🌐 Repository**: [ESG-Sustainability-Analysis](https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis)
-- **📊 Live Demo**: [Coming Soon]
-- **📚 Documentation**: [GitHub Wiki](https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis/wiki)
-- **🐛 Issues**: [Report Bugs](https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis/issues)
-
-### Community
-- **💬 Discussions**: Join our [GitHub Discussions](https://github.com/Surya-Hariharan/ESG-Sustainability-Analysis/discussions)
-- **📢 Updates**: Watch the repository for latest updates
-- **🤝 Contribute**: See our [Contributing Guidelines](#-contributing)
-
----
-
-**🌱 Built with ❤️ for a Sustainable Future | 🚀 Production-Ready | 🤖 AI-Powered | 📊 Enterprise-Grade**
-
-*Transforming ESG analytics through intelligent automation and cutting-edge technology* 🌍
-=======
-**Surya Hariharan** - [@Surya-Hariharan](https://github.com/Surya-Hariharan)
->>>>>>> 66f0068e734ca122b60481d892251e144710e229
